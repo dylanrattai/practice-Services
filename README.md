@@ -53,7 +53,7 @@ These functions allow components to exchange data and events in a reactive and s
 
 ## Changes to Implement
 
-1. Create an interface named `TaskData` to represent task objects.
+1. Create an interface named `TaskItem` to represent task objects.
 2. Create a Service - TaskService
     - Move the task array to TaskService and convert this to a signal
     - Implement methods to add new tasks, updateStatus, and delete tasks.
